@@ -3,5 +3,5 @@
     <!-- 🔴 AHIYA TAMARI WEBSITE NU LIVE URL ATHVA PC NO IP ADDRESS MUKO 🔴 -->
     <!-- Example Live: https://yourwebsite.com/ -->
     <!-- Example Local Wi-Fi Test: http://192.168.1.5/Multi_Vendor2/ -->
-    <string name="website_url">http://localhost/multi_vendor2/</string>
+    <string name="website_url">http://192.168.2.50/multi_vendor2/</string>
 </resources>
