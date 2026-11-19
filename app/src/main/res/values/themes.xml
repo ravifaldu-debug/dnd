@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.LocalMarket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0f172a</item>
+        <item name="colorPrimaryVariant">#1e1b4b</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="android:statusBarColor">#0f172a</item>
+    </style>
+</resources>
