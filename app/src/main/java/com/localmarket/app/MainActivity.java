@@ -1,9 +1,11 @@
 package com.localmarket.app;
+
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebChromeClient;
 import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
@@ -40,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
         webSettings.setAllowFileAccess(true);
+
+        // JavaScript alert() અને confirm() પોપઅપ બતાવવા માટે
+        webView.setWebChromeClient(new WebChromeClient());
 
         webView.setWebViewClient(new WebViewClient() {
 
@@ -126,4 +131,3 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
